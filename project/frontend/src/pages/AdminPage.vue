@@ -131,7 +131,7 @@ onMounted(async () => {
     </div>
 
     <div class="card">
-      <h2 class="text-sm font-semibold mb-3">Ýoklama sebäpleri</h2>
+      <h2 class="text-sm font-semibold mb-3">Gatnaşyk sebäpleri</h2>
       <div class="grid md:grid-cols-4 gap-3 items-end">
         <div class="md:col-span-2"><label class="label">Ady</label><input v-model="reasonForm.name" class="input" /></div>
         <label class="flex items-center gap-2 text-sm"><input v-model="reasonForm.requiresDocument" type="checkbox" /> Kepilnama gerek</label>

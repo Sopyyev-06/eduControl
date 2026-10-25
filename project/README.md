@@ -1,6 +1,6 @@
 # eduControl — Institut dolandyryş ulgamy
 
-Institutyň okuw bölüminiň ýoklama (davomad) hasabatlaryny we tassyklama iş akymyny sanlaşdyrýan ulgam.
+Institutyň okuw bölüminiň gatnaşyk (davomad) hasabatlaryny we tassyklama iş akymyny sanlaşdyrýan ulgam.
 Vue 3 + TypeScript + Tailwind CSS (frontend), Node.js + Express + TypeScript (backend), MySQL 8, Docker Compose.
 
 ---
@@ -132,7 +132,7 @@ project/
 | Baza ätiýaçlygy | `docker compose exec mysql mysqldump -uroot -p"$MYSQL_ROOT_PASSWORD" educontrol \| gzip > backup.sql.gz` |
 | Täzeden gurmak | `docker compose down -v && docker compose up -d --build` |
 | Migrasiýa | `docker compose exec backend node dist/db/migrate.js` |
-| Sebäp goşmak | Admin panel → "Ýoklama sebäpleri" (öçürmek ýok, diňe arhiwleme) |
+| Sebäp goşmak | Admin panel → "Gatnaşyk sebäpleri" (öçürmek ýok, diňe arhiwleme) |
 
 ## 10. Önümçilikde etmeli zatlar
 
